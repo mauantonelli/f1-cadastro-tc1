@@ -173,7 +173,7 @@ export default function App() {
                 cursor: "pointer",
               }}
             >
-              <option value="">-- selecione --</option>
+              <option value="">Selecione</option>
               <option value="Mercedes">Mercedes</option>
               <option value="Red Bull">Red Bull</option>
               <option value="Ferrari">Ferrari</option>
