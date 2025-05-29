@@ -101,7 +101,7 @@ export default function App() {
             fontSize: "1.8rem",
           }}
         >
-          Cadastro Pilotos - F1
+          Cadastro F1 - Pilotos
         </h1>
 
         <form onSubmit={handleSubmit} noValidate>
