@@ -58,7 +58,7 @@ export default function Cadastro() {
         {errors.nacionalidade && <p className="erro">{errors.nacionalidade}</p>}
 
         <select name="equipe" value={form.equipe} onChange={handleChange}>
-          <option value="">Selecione</option>
+          <option value="">Equipe</option>
           <option value="Mercedes">Mercedes</option>
           <option value="Red Bull">Red Bull</option>
           <option value="Ferrari">Ferrari</option>
