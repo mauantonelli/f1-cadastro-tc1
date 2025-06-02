@@ -1,42 +1,79 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.cadastro-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #1c1c1e;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.cadastro-container h1 {
   text-align: center;
+  margin-bottom: 20px;
+  color: #e10600;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input,
+select {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #2c2c2e;
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input::placeholder {
+  color: #aaa;
 }
 
-.card {
-  padding: 2em;
+select {
+  appearance: none;
+  background-color: #2c2c2e;
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.botao-principal {
+  background-color: #e10600;
+  color: white;
+}
+
+.botao-principal:hover {
+  background-color: #ff1a1a;
+}
+
+.botao-secundario {
+  background-color: transparent;
+  color: #e10600;
+  border: 2px solid #e10600;
+  margin-top: 20px;
+}
+
+.botao-secundario:hover {
+  background-color: #e10600;
+  color: white;
+}
+
+.erro {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
